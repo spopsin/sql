@@ -1,3 +1,7 @@
+/*
+Query all columns (attributes) for every row in the CITY table.
+*/
+
  CREATE TABLE CITY{
     ID NUMBER,
     NAME VARCHAR2 (17),
@@ -7,6 +11,7 @@
  };
 
  INSERT INTO CITY
+
  VALUES
     (   6, 'Rotterdam'    , 'NLD', 'Zuid-Holland' , 593321)
     (3878, 'Scottsdale'   , 'USA', 'Arizona'      , 202705)
