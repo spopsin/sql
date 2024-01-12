@@ -1,3 +1,6 @@
+/*
+Query a list of CITY and STATE from the STATION table.
+*/
  CREATE TABLE STATION{
     ID NUMBER,
     CITY VARCHAR2 (21),
